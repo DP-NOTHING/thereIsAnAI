@@ -1,0 +1,9 @@
+
+    .customCard {
+transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.customCard:hover {
+transform: scale(1.05);
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}

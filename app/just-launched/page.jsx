@@ -2,7 +2,16 @@
 import Details from "@/components/Details";
 import { Heading } from "@/components/Heading";
 import { Navbar } from "@/components/NavBar";
-import { Card, Image, Group, Text, Badge, Button, Grid } from "@mantine/core";
+import {
+  Card,
+  Image,
+  Group,
+  Text,
+  Badge,
+  Button,
+  Grid,
+  Title,
+} from "@mantine/core";
 import Link from "next/link";
 
 export default function Home() {
@@ -11,7 +20,42 @@ export default function Home() {
       title: "Adspire",
       description: "Ads",
       image:
-        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496554.png?f=webp&w=256",
+        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496585.png?f=webp&w=256",
+      price: "Free + from $9.99",
+    },
+    {
+      title: "webr",
+      description: "Ads",
+      image:
+        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496581.png?f=webp&w=256",
+      price: "Free + from $9.99",
+    },
+    {
+      title: "Adspire",
+      description: "Ads",
+      image:
+        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496580.png?f=webp&w=256",
+      price: "Free + from $9.99",
+    },
+    {
+      title: "Assistena",
+      description: "Ads",
+      image:
+        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496579.png?f=webp&w=256",
+      price: "Free + from $9.99",
+    },
+    {
+      title: "webr",
+      description: "Avrsds",
+      image:
+        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496578.png?f=webp&w=256",
+      price: "Free ",
+    },
+    {
+      title: "Adspire",
+      description: "Ads",
+      image:
+        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496582.png?f=webp&w=256",
       price: "Free + from $9.99",
     },
     {
@@ -37,41 +81,6 @@ export default function Home() {
     },
     {
       title: "webr",
-      description: "Avrsds",
-      image:
-        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496578.png?f=webp&w=256",
-      price: "Free ",
-    },
-    {
-      title: "Adspire",
-      description: "Ads",
-      image:
-        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496579.png?f=webp&w=256",
-      price: "Free + from $9.99",
-    },
-    {
-      title: "Adspire",
-      description: "Ads",
-      image:
-        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496580.png?f=webp&w=256",
-      price: "Free + from $9.99",
-    },
-    {
-      title: "webr",
-      description: "Ads",
-      image:
-        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496581.png?f=webp&w=256",
-      price: "Free + from $9.99",
-    },
-    {
-      title: "Adspire",
-      description: "Ads",
-      image:
-        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496582.png?f=webp&w=256",
-      price: "Free + from $9.99",
-    },
-    {
-      title: "Adspire",
       description: "Ads",
       image:
         "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496583.png?f=webp&w=256",
@@ -88,11 +97,18 @@ export default function Home() {
       title: "Adspire",
       description: "Ads",
       image:
-        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496585.png?f=webp&w=256",
+        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496588.png?f=webp&w=256",
       price: "Free + from $9.99",
     },
     {
-      title: "Adspire",
+      title: "Assistena",
+      description: "Ads",
+      image:
+        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496587.png?f=webp&w=256",
+      price: "Free + from $9.99",
+    },
+    {
+      title: "andr",
       description: "Ads",
       image:
         "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496586.png?f=webp&w=256",
@@ -102,20 +118,16 @@ export default function Home() {
       title: "Adspire",
       description: "Ads",
       image:
-        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496587.png?f=webp&w=256",
-      price: "Free + from $9.99",
-    },
-    {
-      title: "Adspire",
-      description: "Ads",
-      image:
-        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496588.png?f=webp&w=256",
+        "https://cdn.iconscout.com/icon/free/png-512/free-cdn-1758346-1496554.png?f=webp&w=256",
       price: "Free + from $9.99",
     },
   ];
 
   return (
     <>
+      <Title order={1} style={{ marginTop: "15px", padding: "20px" }}>
+        Just Launched{" "}
+      </Title>
       <Grid
         gutter="md"
         justify="center"
